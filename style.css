@@ -34,7 +34,7 @@ body{
   }
 
 /*　ナビゲーションのレイアウト　*/
-#nav-pc{
+#nav-pc {
   font-size: 14px;
   padding-top: 15px;
 }
@@ -75,9 +75,9 @@ body{
   background-color: #2710d5;
   color: #ffffff;
   border-radius: 0 0 476px 0;
+  max-width: 620px;
   height: 100%;
   width: 100%;
-  max-width: 620px;
   z-index: 11;
 
 }
@@ -125,8 +125,9 @@ h3 {
 }
 
 #mission-photo {
-  width:100%
+  width: 100%;
 }
+
 #s2dgs {
   margin-top: 50px;
   width: 100%;
@@ -146,7 +147,7 @@ h3 {
 }
 
 /*左のカラム*/
-#product-left{
+#product-left {
   width: 50%;
   margin-right: 20px;
 }
@@ -159,13 +160,13 @@ h3 {
 }
 
 /*写真＋説明の枠*/
-#product-left > div{
+#product-left > div {
   position: relative;
   height: 480px;
   margin-right: 20px;
 }
 
-#product-right > div{
+#product-right > div {
   position: relative;
   height: 480px;
   margin-left: 20px;
@@ -175,9 +176,9 @@ h3 {
   width: 100%;
 }
 /*説明文の枠*/
-.product-explain{
+.product-explain {
   background-color: #ffffff;
-  position:absolute;
+  position: absolute;
   left: 0;
   top: 280px;
   margin: 0 40px 0 40px;
@@ -206,11 +207,11 @@ h3 {
   margin: 0 auto -42px auto;
 }
 /*ABOUT US*/
-.aboutus{
+#aboutus{
   margin: 80px auto 80px auto;
 }
 /*3つの組織文化と写真を入れる枠*/
-.aboutus > div {
+#aboutus > div {
   display: flex;
 }
 /*写真*/
@@ -276,7 +277,7 @@ h3 {
   z-index: 30;
 }
 
-.vision-box > span{
+.vision-box > span {
   position: absolute;
   top: 0;
   left: 0;
@@ -321,7 +322,7 @@ h3 {
 }
 .tableheader-first {
   text-align: left;
-  padding:  20px;
+  padding: 20px;
   border-bottom-color: #2710d5;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -390,8 +391,8 @@ h3 {
   border-bottom-color: #707070;
   border-style: solid;
   background-color: #fafafa;
-  width: 400px;
   height: 56px;
+  width: 400px;
 }
 
 /*お問い合わせ内容のテキストエリア*/
@@ -589,7 +590,7 @@ footer {
   font-size: 80px;
 }
 
-#producu-title > span {
+#product-title > span {
   position: absolute;
   top: 200px;
   left: 100px;
@@ -650,7 +651,7 @@ footer {
 
 .product-h2 {
   color: #2710d5;
-  font-size: 28px;
+  font-size: 24px;
   margin: 0;
 }
 
@@ -855,11 +856,11 @@ h3 {
 }
 
 /*ABOUT US*/
-.aboutus {
+#aboutus {
   margin: 80px 20px 80px 20px;
 }
 
-.aboutus > div {
+#aboutus > div {
   display: flex;
   flex-direction: column;
 }
@@ -967,12 +968,7 @@ h3 {
   border-bottom-style: solid;
   width: 50px;
 }
-.cell {
-  padding: 20px;
-  border-bottom-color: #ececec;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-}
+
 .cell-first {
   padding: 20px;
   border-bottom-color: #ececec;
@@ -981,6 +977,13 @@ h3 {
   border-top-color: #ececec;
   border-top-width: 1px;
   border-top-style: solid;
+}
+
+.cell {
+  padding: 20px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 
 #company > iframe {
@@ -1136,7 +1139,7 @@ footer {
 }
 
 .mission-h2 {
-  color: #2110d5;
+  color: #2710d5;
   font-size: 38px;
   margin: 0px;
 }
